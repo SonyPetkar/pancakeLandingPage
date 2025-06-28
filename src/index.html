@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>PanCake Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+    <!-- Google Font (Dancing Script) -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="relative min-h-screen overflow-hidden">
+
+        <!-- 🔹 Background Image with Blur -->
+        <div class="absolute inset-0 bg-cover bg-center blur-sm scale-110 z-0"
+            style="background-image: url('./assests/bg1.avif');">
+        </div>
+
+        <!-- 🔸 Main Content -->
+        <div class="relative z-10 px-4 sm:px-6">
+            <!-- Responsive Nav -->
+            <nav
+                class="flex flex-col md:flex-row items-center justify-between text-white font-serif pt-4 gap-4 md:gap-12 lg:gap-12">
+                <div class="text-lg font-bold tracking-wide">PanCake Heaven</div>
+                <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 lg:gap-12">
+                    <a href="#">Home</a>
+                    <a href="#">AboutUs</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">ContactUs</a>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <div class="text-center mt-16 sm:mt-20">
+                <h1 class="text-white text-3xl sm:text-4xl lg:text-5xl font-semibold"
+                    style="font-family: 'Dancing Script', cursive;">
+                    Welcome To The Pan Cake World!
+                </h1>
+                <p
+                    class="text-white font-serif text-sm sm:text-base md:text-lg mt-6 w-[90%] md:w-[700px] lg:w-[900px] mx-auto leading-relaxed">
+                    Welcome to a world where every bite feels like a warm hug. At PanCake Haven, we serve stacks of
+                    happiness—
+                    fluffy, golden, and drizzled with love. Whether you're a classic maple lover or a chocolate drizzle
+                    dreamer,
+                    there's a pancake here just for you.
+                </p>
+
+                <button
+                    class="text-white border border-amber-50 border-4 p-2 rounded-3xl mt-6 hover:bg-slate-700 hover:cursor-pointer font-serif w-40">
+                    Explore More
+                </button>
+            </div>
+
+            <!-- Horizontal Images Section -->
+            <div class="mt-10 overflow-x-auto">
+                <div class="flex flex-row justify-start md:justify-center gap-4 sm:gap-6 px-4 w-max md:w-auto">
+                    <img class="min-w-[160px] sm:size-[180px] rounded-2xl" src="./assests/img2.jpg" />
+                    <img class="min-w-[160px] sm:size-[180px] rounded-2xl" src="./assests/img3.webp" />
+                    <img class="min-w-[160px] sm:size-[180px] rounded-2xl" src="./assests/img4.jpg" />
+                    <img class="min-w-[160px] sm:size-[180px] rounded-2xl" src="./assests/img5.jpg" />
+                    <img class="min-w-[160px] sm:size-[180px] rounded-2xl" src="./assests/img6.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
